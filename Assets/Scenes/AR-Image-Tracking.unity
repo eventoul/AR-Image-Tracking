@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 3715034}
   - component: {fileID: 3715033}
   - component: {fileID: 3715035}
+  - component: {fileID: 3715036}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -182,7 +183,21 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 821137e311fc4b8409a0852b074c6e50,
     type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 8235250982985095865, guid: 327723a33a9cfeb4dba817be3a7205ee,
+  m_TrackedImagePrefab: {fileID: 6395949923038602157, guid: 4a7bce165da2f9041b2a0b4d159eea7f,
+    type: 3}
+--- !u!114 &3715036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab0e80cee9cc1d44928bfe488dd1e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PointCloudPrefab: {fileID: 1666041958165013373, guid: 6c365062f62512242b12d934eb059a7c,
     type: 3}
 --- !u!1 &4885983
 GameObject:
@@ -378,7 +393,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: -0.0000000012245067, z: 1.013e-42, w: -5.453833e-10}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
