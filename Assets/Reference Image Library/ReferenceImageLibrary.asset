@@ -25,3 +25,23 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: rocks
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5751581058123994681
+      m_GuidHigh: 16890820567800639673
+    m_SerializedTextureGuid:
+      m_GuidLow: 15768320093320237968
+      m_GuidHigh: 3425220134555120728
+    m_Size: {x: 0.02, y: 0.0133}
+    m_SpecifySize: 1
+    m_Name: Zeus_img_book
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4656262878320253940
+      m_GuidHigh: 9076812895755177090
+    m_SerializedTextureGuid:
+      m_GuidLow: 8850771904925063362
+      m_GuidHigh: 6233046240603498665
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Astronaut_scaled
+    m_Texture: {fileID: 0}

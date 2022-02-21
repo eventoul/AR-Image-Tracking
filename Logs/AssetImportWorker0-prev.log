@@ -1,0 +1,877 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16149 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/UnityProjects/AR-Image-Tracking
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57354
+Successfully changed project path to: C:/UnityProjects/AR-Image-Tracking
+C:/UnityProjects/AR-Image-Tracking
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/AR-Image-Tracking/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     8074 MB
+    Driver:   30.0.101.1340
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000985 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (519ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (150ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000468 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Cloud.Collaborate.EditorGameService.EditorGameServiceAnalyticsSender:get_Identifier due to: Could not load file or assembly 'Unity.Services.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Unity.Services.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.FileNotFoundException: Could not load file or assembly 'Unity.PlasticSCM.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+File name: 'Unity.PlasticSCM.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'
+  at CollabProxy.UI.Bootstrap..cctor () [0x00001] in C:\UnityProjects\AR-Image-Tracking\Library\PackageCache\com.unity.collab-proxy@1.15.7\Editor\Collaborate\UserInterface\Bootstrap.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1322ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (693ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1281 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.1 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1724.
+Total: 1.992000 ms (FindLiveObjects: 0.122500 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.768800 ms  DeleteObjects: 0.070200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/AR-Image-Tracking.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AR-Image-Tracking.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95238aca50f25aab4c84808b9984b8a') in 0.016180 seconds 
+  Import took 0.018091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.207263 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(5956bdb65aaad684eba0a0e1cf29c65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(5956bdb65aaad684eba0a0e1cf29c65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c995ca4946fe60b855bcce56f4918c3b') in 0.033146 seconds 
+  Import took 0.036201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042771 seconds.
+  path: Assets/Prefabs/AR Default Point Cloud.prefab
+  artifactKey: Guid(6c365062f62512242b12d934eb059a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Point Cloud.prefab using Guid(6c365062f62512242b12d934eb059a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5b6384b688f4fef22bd9ad22a3470c') in 1.737824 seconds 
+  Import took 1.749969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefabs/Moon.prefab
+  artifactKey: Guid(4a7bce165da2f9041b2a0b4d159eea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Moon.prefab using Guid(4a7bce165da2f9041b2a0b4d159eea7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff7b6b18d12 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7b6aeaad2 (Unity) ResolveArtifactV2
+0x00007ff7b6ab7eed (Unity) GUIDPersistentManagerV2::PathIDToPathNameInternal
+0x00007ff7b5c24f04 (Unity) PersistentManager::GetStreamNameSpaceInternal
+0x00007ff7b5c247b6 (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
+0x00007ff7b5c29a73 (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff7b5c2a324 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff7b5c2a043 (Unity) PersistentManager::ReadObject
+0x00007ff7b5980ef0 (Unity) UnityPropertySheet::AssignDefinedPropertiesTo
+0x00007ff7b59bdec1 (Unity) Material::BuildProperties
+0x00007ff7b59bc25f (Unity) Material::AcquireSharedMaterialData
+0x00007ff7b55f3b0c (Unity) BaseRenderer::FlattenSharedMaterialData<0>
+0x00007ff7b5804cc3 (Unity) PrepareMeshRenderNodes<0>
+0x00007ff7b565cb2a (Unity) ExtractSceneRenderNodeQueue
+0x00007ff7b56ac396 (Unity) CullResults::GetOrCreateSharedRendererScene
+0x00007ff7b5686af7 (Unity) Camera::CustomRender
+0x00007ff7b569bd32 (Unity) Camera::StandaloneCustomRender
+0x00007ff7b569beb8 (Unity) Camera::StandaloneRender
+0x00007ff7b56933c6 (Unity) CameraScripting::Render
+0x00007ff7b5cc0d24 (Unity) Camera_CUSTOM_Render
+0x00000212e60dd31b (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x00000212e60dc15b (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x00000212e60d9c83 (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
+0x00000212e60ad823 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x00000212ed532cf4 (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x00000212ed532ff0 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ff96c01f1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ff96bfa2ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ff96bfabb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff7b5bbcf74 (Unity) scripting_method_invoke
+0x00007ff7b5bb8251 (Unity) ScriptingInvocation::Invoke
+0x00007ff7b6a64566 (Unity) MonoCreateAssetPreview
+0x00007ff7b6a6624e (Unity) WriteAssetPreviewToFile
+0x00007ff7b6a669b2 (Unity) WritePreviews
+0x00007ff7b6a6316e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7b6b04032 (Unity) ImportToObjects
+0x00007ff7b6b030a8 (Unity) ImportAsset
+0x00007ff7b6a9d4b8 (Unity) AssetImportWorker::Import
+0x00007ff7b6ac2b5a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
+0x00007ff7b6b4a1f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff7b6b4c350 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff7b6b4face (Unity) asio::io_service::run
+0x00007ff7b6aeb7eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff7b6aeb840 (Unity) RunAssetImporterV2
+0x00007ff7b6592a7d (Unity) Application::InitializeProject
+0x00007ff7b69e7ae2 (Unity) WinMain
+0x00007ff7b80775e2 (Unity) __scrt_common_main_seh
+0x00007ff9f99154e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff9fa9e485b (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(b31c512debdfbfa4e9fc86f059feb629) Importer(-1,00000000000000000000000000000000), Assets/Textures/2k_moon.jpg from editor
+Resuming Guid(b31c512debdfbfa4e9fc86f059feb629) Importer(-1,00000000000000000000000000000000) -> ff831a10fa5627aed670e4823b4691b5 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+ -> (artifact id: 'cb1503763d76b067de21cbeb8f323a72') in 1.028979 seconds 
+  Import took 1.048612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(327723a33a9cfeb4dba817be3a7205ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(327723a33a9cfeb4dba817be3a7205ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c768321428f7e88fbaf6b2a396dbee8') in 0.335521 seconds 
+  Import took 0.339689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.823645 seconds.
+  path: Assets/Reference Image Library
+  artifactKey: Guid(508f8d1a092707d4984a2816193d8e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reference Image Library using Guid(508f8d1a092707d4984a2816193d8e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c4643ecf4bee23f7562ffa22b754b1') in 0.007199 seconds 
+  Import took 0.009095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056114 seconds.
+  path: Assets/Reference Image Library/ReferenceImageLibrary.asset
+  artifactKey: Guid(821137e311fc4b8409a0852b074c6e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reference Image Library/ReferenceImageLibrary.asset using Guid(821137e311fc4b8409a0852b074c6e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff7b6b18d12 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7b6aeaad2 (Unity) ResolveArtifactV2
+0x00007ff7b6ab44dd (Unity) AssetResolver::UpdateAssetCachedInfo
+0x00007ff7b6ab04b8 (Unity) AssetResolver::GetAssetCachedInfo
+0x00007ff7b6aa6633 (Unity) AssetDatabasePropertyV2::FetchAssetMetaInfo
+0x00007ff7b6aa75ae (Unity) AssetDatabasePropertyV2::GetType
+0x00007ff7b68e1a7c (Unity) BaseHierarchyProperty::FilterByType
+0x00007ff7b68e30f8 (Unity) BaseHierarchyProperty::Next
+0x00007ff7b6e56cf6 (Unity) HierarchyProperty_CUSTOM_Next
+0x00000212e781bb49 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.HierarchyProperty:Next (UnityEditor.HierarchyProperty,int[])
+0x00000212e7815ae3 (Mono JIT Code) UnityEditor.AssetDatabase/<FindEverywhere>d__34`1<T_REF>:MoveNext ()
+0x00000212e7814404 (Mono JIT Code) UnityEditor.AssetDatabase/<FindAllAssets>d__31:MoveNext ()
+0x00000212e7813bea (Mono JIT Code) System.Linq.Enumerable/SelectEnumerableIterator`2<TSource_REF, TResult_REF>:MoveNext ()
+0x00000212e7813817 (Mono JIT Code) System.Linq.Set`1<TElement_REF>:UnionWith (System.Collections.Generic.IEnumerable`1<TElement_REF>)
+0x00000212e78135cb (Mono JIT Code) System.Linq.Enumerable/DistinctIterator`1<TSource_REF>:FillSet ()
+0x00000212e7813423 (Mono JIT Code) System.Linq.Enumerable/DistinctIterator`1<TSource_REF>:ToArray ()
+0x00000212ec343ac3 (Mono JIT Code) System.Linq.Enumerable:ToArray<TSource_REF> (System.Collections.Generic.IEnumerable`1<TSource_REF>)
+0x00000212e7812d7b (Mono JIT Code) UnityEditor.AssetDatabase:FindAssets (UnityEditor.SearchFilter)
+0x00000212e60ebab3 (Mono JIT Code) UnityEditor.AssetDatabase:FindAssets (string,string[])
+0x00000212e60eb6fb (Mono JIT Code) UnityEditor.AssetDatabase:FindAssets (string)
+0x00000212e60ea7a3 (Mono JIT Code) [XRReferenceImageLibrary.cs:91] UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary:Awake () 
+0x00000212e60e98e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff96c01f1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ff96bfa2ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ff96bfabb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff7b5bbcf74 (Unity) scripting_method_invoke
+0x00007ff7b5bb8251 (Unity) ScriptingInvocation::Invoke
+0x00007ff7b5bb83ae (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff7b5c12b86 (Unity) SerializableManagedRef::CallMethod
+0x00007ff7b5b85db4 (Unity) MonoBehaviour::CallAwake
+0x00007ff7b5b84dc0 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff7b5c52a0f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff7b5c533a2 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff7b5c53503 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff7b5c25f71 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff7b5c26ab7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff7b5c2a0b2 (Unity) PersistentManager::ReadObject
+0x00007ff7b6a667f1 (Unity) WritePreviews
+0x00007ff7b6a6316e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7b6b04032 (Unity) ImportToObjects
+0x00007ff7b6b030a8 (Unity) ImportAsset
+0x00007ff7b6a9d4b8 (Unity) AssetImportWorker::Import
+0x00007ff7b6ac2b5a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
+0x00007ff7b6b4a1f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff7b6b4c350 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff7b6b4face (Unity) asio::io_service::run
+0x00007ff7b6aeb7eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff7b6aeb840 (Unity) RunAssetImporterV2
+0x00007ff7b6592a7d (Unity) Application::InitializeProject
+0x00007ff7b69e7ae2 (Unity) WinMain
+0x00007ff7b80775e2 (Unity) __scrt_common_main_seh
+0x00007ff9f99154e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff9fa9e485b (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(89890296ad2753c4c85334d545857f7c) Importer(-1,00000000000000000000000000000000), Assets/Assets/rocks.jpg from editor
+Resuming Guid(89890296ad2753c4c85334d545857f7c) Importer(-1,00000000000000000000000000000000) -> b206521cca6b920c0b369b4588a8d6a6 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase/<FindEverywhere>d__34`1<UnityEditor.HierarchyProperty>:MoveNext ()
+UnityEditor.AssetDatabase/<FindAllAssets>d__31:MoveNext ()
+System.Linq.Enumerable/SelectEnumerableIterator`2<UnityEditor.HierarchyProperty, string>:MoveNext ()
+System.Linq.Set`1<string>:UnionWith (System.Collections.Generic.IEnumerable`1<string>)
+System.Linq.Enumerable/DistinctIterator`1<string>:FillSet ()
+System.Linq.Enumerable/DistinctIterator`1<string>:ToArray ()
+System.Linq.Enumerable:ToArray<string> (System.Collections.Generic.IEnumerable`1<string>)
+UnityEditor.AssetDatabase:FindAssets (UnityEditor.SearchFilter)
+UnityEditor.AssetDatabase:FindAssets (string,string[])
+UnityEditor.AssetDatabase:FindAssets (string)
+UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary:Awake () (at Library/PackageCache/com.unity.xr.arsubsystems@4.1.7/Runtime/ImageTrackingSubsystem/XRReferenceImageLibrary.cs:91)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase/<FindEverywhere>d__34`1<UnityEditor.HierarchyProperty>:MoveNext ()
+UnityEditor.AssetDatabase/<FindAllAssets>d__31:MoveNext ()
+System.Linq.Enumerable/SelectEnumerableIterator`2<UnityEditor.HierarchyProperty, string>:MoveNext ()
+System.Linq.Set`1<string>:UnionWith (System.Collections.Generic.IEnumerable`1<string>)
+System.Linq.Enumerable/DistinctIterator`1<string>:FillSet ()
+System.Linq.Enumerable/DistinctIterator`1<string>:ToArray ()
+System.Linq.Enumerable:ToArray<string> (System.Collections.Generic.IEnumerable`1<string>)
+UnityEditor.AssetDatabase:FindAssets (UnityEditor.SearchFilter)
+UnityEditor.AssetDatabase:FindAssets (string,string[])
+UnityEditor.AssetDatabase:FindAssets (string)
+UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary:Awake () (at Library/PackageCache/com.unity.xr.arsubsystems@4.1.7/Runtime/ImageTrackingSubsystem/XRReferenceImageLibrary.cs:91)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff7b6b18d12 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7b6aeaad2 (Unity) ResolveArtifactV2
+0x00007ff7b6ab44dd (Unity) AssetResolver::UpdateAssetCachedInfo
+0x00007ff7b6ab04b8 (Unity) AssetResolver::GetAssetCachedInfo
+0x00007ff7b6aa6633 (Unity) AssetDatabasePropertyV2::FetchAssetMetaInfo
+0x00007ff7b6aa75ae (Unity) AssetDatabasePropertyV2::GetType
+0x00007ff7b68e1a7c (Unity) BaseHierarchyProperty::FilterByType
+0x00007ff7b68e30f8 (Unity) BaseHierarchyProperty::Next
+0x00007ff7b6e56cf6 (Unity) HierarchyProperty_CUSTOM_Next
+0x00000212e781bb49 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.HierarchyProperty:Next (UnityEditor.HierarchyProperty,int[])
+0x00000212e7815ae3 (Mono JIT Code) UnityEditor.AssetDatabase/<FindEverywhere>d__34`1<T_REF>:MoveNext ()
+0x00000212e7814404 (Mono JIT Code) UnityEditor.AssetDatabase/<FindAllAssets>d__31:MoveNext ()
+0x00000212e7813bea (Mono JIT Code) System.Linq.Enumerable/SelectEnumerableIterator`2<TSource_REF, TResult_REF>:MoveNext ()
+0x00000212e7813817 (Mono JIT Code) System.Linq.Set`1<TElement_REF>:UnionWith (System.Collections.Generic.IEnumerable`1<TElement_REF>)
+0x00000212e78135cb (Mono JIT Code) System.Linq.Enumerable/DistinctIterator`1<TSource_REF>:FillSet ()
+0x00000212e7813423 (Mono JIT Code) System.Linq.Enumerable/DistinctIterator`1<TSource_REF>:ToArray ()
+0x00000212ec343ac3 (Mono JIT Code) System.Linq.Enumerable:ToArray<TSource_REF> (System.Collections.Generic.IEnumerable`1<TSource_REF>)
+0x00000212e7812d7b (Mono JIT Code) UnityEditor.AssetDatabase:FindAssets (UnityEditor.SearchFilter)
+0x00000212e60ebab3 (Mono JIT Code) UnityEditor.AssetDatabase:FindAssets (string,string[])
+0x00000212e60eb6fb (Mono JIT Code) UnityEditor.AssetDatabase:FindAssets (string)
+0x00000212e60ea7a3 (Mono JIT Code) [XRReferenceImageLibrary.cs:91] UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary:Awake () 
+0x00000212e60e98e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff96c01f1e0 (mono-2.0-bdwgc) [mini-runtime.c:2849] mono_jit_runtime_invoke 
+0x00007ff96bfa2ac2 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007ff96bfabb1f (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007ff7b5bbcf74 (Unity) scripting_method_invoke
+0x00007ff7b5bb8251 (Unity) ScriptingInvocation::Invoke
+0x00007ff7b5bb83ae (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff7b5c12b86 (Unity) SerializableManagedRef::CallMethod
+0x00007ff7b5b85db4 (Unity) MonoBehaviour::CallAwake
+0x00007ff7b5b84dc0 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff7b5c52a0f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff7b5c533a2 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff7b5c53503 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff7b5c25f71 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff7b5c26ab7 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff7b5c2a0b2 (Unity) PersistentManager::ReadObject
+0x00007ff7b6a667f1 (Unity) WritePreviews
+0x00007ff7b6a6316e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7b6b04032 (Unity) ImportToObjects
+0x00007ff7b6b030a8 (Unity) ImportAsset
+0x00007ff7b6a9d4b8 (Unity) AssetImportWorker::Import
+0x00007ff7b6ac2b5a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
+0x00007ff7b6b4a1f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff7b6b4c350 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff7b6b4face (Unity) asio::io_service::run
+0x00007ff7b6aeb7eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff7b6aeb840 (Unity) RunAssetImporterV2
+0x00007ff7b6592a7d (Unity) Application::InitializeProject
+0x00007ff7b69e7ae2 (Unity) WinMain
+0x00007ff7b80775e2 (Unity) __scrt_common_main_seh
+0x00007ff9f99154e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff9fa9e485b (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(b31c512debdfbfa4e9fc86f059feb629) Importer(-1,00000000000000000000000000000000), Assets/Textures/2k_moon.jpg from editor
+Resuming Guid(b31c512debdfbfa4e9fc86f059feb629) Importer(-1,00000000000000000000000000000000) -> ff831a10fa5627aed670e4823b4691b5 
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase/<FindEverywhere>d__34`1<UnityEditor.HierarchyProperty>:MoveNext ()
+UnityEditor.AssetDatabase/<FindAllAssets>d__31:MoveNext ()
+System.Linq.Enumerable/SelectEnumerableIterator`2<UnityEditor.HierarchyProperty, string>:MoveNext ()
+System.Linq.Set`1<string>:UnionWith (System.Collections.Generic.IEnumerable`1<string>)
+System.Linq.Enumerable/DistinctIterator`1<string>:FillSet ()
+System.Linq.Enumerable/DistinctIterator`1<string>:ToArray ()
+System.Linq.Enumerable:ToArray<string> (System.Collections.Generic.IEnumerable`1<string>)
+UnityEditor.AssetDatabase:FindAssets (UnityEditor.SearchFilter)
+UnityEditor.AssetDatabase:FindAssets (string,string[])
+UnityEditor.AssetDatabase:FindAssets (string)
+UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary:Awake () (at Library/PackageCache/com.unity.xr.arsubsystems@4.1.7/Runtime/ImageTrackingSubsystem/XRReferenceImageLibrary.cs:91)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 58]
+
+Assertion failed on expression: 'state.artifactID == result'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase/<FindEverywhere>d__34`1<UnityEditor.HierarchyProperty>:MoveNext ()
+UnityEditor.AssetDatabase/<FindAllAssets>d__31:MoveNext ()
+System.Linq.Enumerable/SelectEnumerableIterator`2<UnityEditor.HierarchyProperty, string>:MoveNext ()
+System.Linq.Set`1<string>:UnionWith (System.Collections.Generic.IEnumerable`1<string>)
+System.Linq.Enumerable/DistinctIterator`1<string>:FillSet ()
+System.Linq.Enumerable/DistinctIterator`1<string>:ToArray ()
+System.Linq.Enumerable:ToArray<string> (System.Collections.Generic.IEnumerable`1<string>)
+UnityEditor.AssetDatabase:FindAssets (UnityEditor.SearchFilter)
+UnityEditor.AssetDatabase:FindAssets (string,string[])
+UnityEditor.AssetDatabase:FindAssets (string)
+UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary:Awake () (at Library/PackageCache/com.unity.xr.arsubsystems@4.1.7/Runtime/ImageTrackingSubsystem/XRReferenceImageLibrary.cs:91)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 59]
+
+ -> (artifact id: '2c5b551f8ad0a1eb7c35ccfd22f7c7cc') in 0.063455 seconds 
+  Import took 0.065313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.517596 seconds.
+  path: Assets/Assets/Zeus_img_book.jpg
+  artifactKey: Guid(ab01d3905394dad45874ac9590d3882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Zeus_img_book.jpg using Guid(ab01d3905394dad45874ac9590d3882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff7b6b18d12 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7b6aeaad2 (Unity) ResolveArtifactV2
+0x00007ff7b6b03c60 (Unity) ImportToObjects
+0x00007ff7b6b030a8 (Unity) ImportAsset
+0x00007ff7b6a9d4b8 (Unity) AssetImportWorker::Import
+0x00007ff7b6ac2b5a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
+0x00007ff7b6b4a1f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff7b6b4c350 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff7b6b4face (Unity) asio::io_service::run
+0x00007ff7b6aeb7eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff7b6aeb840 (Unity) RunAssetImporterV2
+0x00007ff7b6592a7d (Unity) Application::InitializeProject
+0x00007ff7b69e7ae2 (Unity) WinMain
+0x00007ff7b80775e2 (Unity) __scrt_common_main_seh
+0x00007ff9f99154e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff9fa9e485b (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(ab01d3905394dad45874ac9590d3882f) Importer(-1,00000000000000000000000000000000), Assets/Assets/Zeus_img_book.jpg from editor
+Resuming Guid(ab01d3905394dad45874ac9590d3882f) Importer(-1,00000000000000000000000000000000) -> f6d78e8ecc2d21a95b1c72f202b11654 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff7b6b18d12 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff7b6aeaad2 (Unity) ResolveArtifactV2
+0x00007ff7b6ae2bc1 (Unity) ProduceArtifactV2
+0x00007ff7b6a790ee (Unity) AssetDatabase::ProduceArtifact
+0x00007ff7b6a63048 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7b6b04032 (Unity) ImportToObjects
+0x00007ff7b6b030a8 (Unity) ImportAsset
+0x00007ff7b6a9d4b8 (Unity) AssetImportWorker::Import
+0x00007ff7b6ac2b5a (Unity) <lambda_4a0f5575432e8e69ec585d1ca7897980>::operator()
+0x00007ff7b6b4a1f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff7b6b4c350 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff7b6b4face (Unity) asio::io_service::run
+0x00007ff7b6aeb7eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff7b6aeb840 (Unity) RunAssetImporterV2
+0x00007ff7b6592a7d (Unity) Application::InitializeProject
+0x00007ff7b69e7ae2 (Unity) WinMain
+0x00007ff7b80775e2 (Unity) __scrt_common_main_seh
+0x00007ff9f99154e0 (KERNEL32) BaseThreadInitThunk
+0x00007ff9fa9e485b (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(ab01d3905394dad45874ac9590d3882f) Importer(-1,00000000000000000000000000000000), Assets/Assets/Zeus_img_book.jpg from editor
+Resuming Guid(ab01d3905394dad45874ac9590d3882f) Importer(-1,00000000000000000000000000000000) -> f6d78e8ecc2d21a95b1c72f202b11654 
+Assertion failed on expression: 'state.state == kUpToDate'
+Assertion failed on expression: 'state.artifactID == result'
+ -> (artifact id: '925ac9d7b8bf2849015f8d150b80fbdc') in 0.020581 seconds 
+  Import took 0.022604 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.0 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2229.
+Total: 2.795100 ms (FindLiveObjects: 0.135100 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.514700 ms  DeleteObjects: 0.105300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1756 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.0 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 3.021200 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.041100 ms MarkObjects: 2.799700 ms  DeleteObjects: 0.050600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.3 MB.
+System memory in use after: 45.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 2.269900 ms (FindLiveObjects: 0.115700 ms CreateObjectMapping: 0.031800 ms MarkObjects: 2.092000 ms  DeleteObjects: 0.029600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2238.
+Total: 2.314300 ms (FindLiveObjects: 0.119300 ms CreateObjectMapping: 0.033800 ms MarkObjects: 2.143000 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001491 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 80.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2243.
+Total: 2.383900 ms (FindLiveObjects: 0.145300 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.161700 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001443 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Domain Reload Profiling:
+	ReloadAssembly (903ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.2 MB.
+System memory in use after: 80.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 2.678000 ms (FindLiveObjects: 0.124700 ms CreateObjectMapping: 0.037600 ms MarkObjects: 2.480600 ms  DeleteObjects: 0.033700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 2.315500 ms (FindLiveObjects: 0.136100 ms CreateObjectMapping: 0.039100 ms MarkObjects: 2.108100 ms  DeleteObjects: 0.030800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
